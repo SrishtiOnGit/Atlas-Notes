@@ -1,17 +1,15 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import heroImg from "./assets/hero.png";
+import heroImg from "./assets/logo.png";
 
 import Navbar from "./components/navbar";
 import Features from "./components/features";
-import Review from "./components/review";
 
 import About from "./Pages/about";
 import FAQ from "./Pages/faq";
 import SignIn from "./Pages/signin";
 import SignUp from "./Pages/signup";
 import Dashboard from "./Pages/dashboard";
-import Categories from "./Pages/category";
 import Profile from "./Pages/profile";
 import Settings from "./Pages/settings";
 
@@ -57,7 +55,7 @@ function HomePage() {
       </main>
 
       <Features />
-      <Review />
+      
 
       <footer className="footer">
         <p>
@@ -101,10 +99,7 @@ function App() {
           element={<Dashboard />}
         />
 
-        <Route
-          path="/categories"
-          element={<Categories />}
-        />
+        
 
         <Route
           path="/profile"
