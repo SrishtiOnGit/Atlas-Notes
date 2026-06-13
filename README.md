@@ -47,6 +47,9 @@ Modern frontend deployment workflow
  CSS3 (Custom styling)
  React Router DOM
 
+## Reflections:
+I build some apps before but this was my second experience of web development in React and I used my previous project experience for this one.
+It was really a very good experience for me as it gave me a revision of syntax and firebase auth.
 
  ## Demo
  https://srishtiongit.github.io/Atlas-Notes/
