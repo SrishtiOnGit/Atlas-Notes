@@ -1,0 +1,43 @@
+.faq{
+    max-width:900px;
+    margin:100px auto;
+    padding:20px;
+}
+
+.faq h1{
+    text-align:center;
+    font-family:'Playfair Display', serif;
+    color:#264653;
+    margin-bottom:50px;
+    font-size:3rem;
+}
+
+.faq-card{
+    background:white;
+    border-radius:16px;
+    margin-bottom:20px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.faq-question{
+    width:100%;
+    border:none;
+    background:none;
+    cursor:pointer;
+
+    padding:25px;
+
+    text-align:left;
+
+    font-size:1.1rem;
+    font-weight:600;
+
+    color:#264653;
+}
+
+.faq-answer{
+    padding:0 25px 25px;
+    line-height:1.8;
+    color:#3D405B;
+}
