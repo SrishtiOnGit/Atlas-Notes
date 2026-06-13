@@ -1,5 +1,5 @@
 import React from 'react'
-import '/src/Styles/features.css'
+import '../Styles/features.css'
 
 const FeaturesCard = ({icon, title, description}) => {
   return (
@@ -13,4 +13,4 @@ const FeaturesCard = ({icon, title, description}) => {
   )
 }
 
-export default FeaturesCard
+export default FeaturesCard;

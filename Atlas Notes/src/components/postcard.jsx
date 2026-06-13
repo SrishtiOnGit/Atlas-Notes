@@ -1,4 +1,5 @@
 import "/src/Styles/postcard.css";
+import React from "react";
 
 const Postcard = ({
   location,

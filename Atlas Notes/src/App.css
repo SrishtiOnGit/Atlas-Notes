@@ -12,7 +12,11 @@
 .hero{
     height:90vh;
 
-    background-image:url("/src/assets/hero.jpg");
+   background:linear-gradient(
+    135deg,
+    #264653,
+    #2A9D8F
+);
     background-size:cover;
     background-position:center;
 
