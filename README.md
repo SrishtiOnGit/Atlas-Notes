@@ -2,7 +2,6 @@
 
 A digital travel experience that lets you explore the world through interactive postcards, daily discoveries, and cultural snapshots.
 
-Atlas Notes is a travel-inspired web application that helps users discover beautiful destinations across the world through immersive digital postcards. Each interaction feels like receiving a postcard from a new corner of the planet — complete with visuals, weather insights, and cultural context.
 
  ## Key Features
  Daily Postcard
@@ -29,22 +28,11 @@ Learn simple greetings and phrases from different cultures around the world.
 
 Build your personal collection of favorite destinations and revisit them anytime.
 
-## What This Project Demonstrates
-
-Atlas Notes is not just a UI project — it demonstrates:
-
-Component-based architecture using React 
-Multi-page routing with React Router 
-Scalable UI design patterns 
-State-driven interactive UI behavior 
-Clean separation of features into modules 
-Modern frontend deployment workflow 
-
 ## Tech Stack
- React (Frontend framework)
- Vite (Build tool)
+ React 
+ Vite )
  Firebase Authentication
- CSS3 (Custom styling)
+ CSS3 
  React Router DOM
 
 ## Reflections:
@@ -55,5 +43,5 @@ It was really a very good experience for me as it gave me a revision of syntax a
  https://srishtiongit.github.io/Atlas-Notes/
 
 ## Note:
-This app only have firebase auth and is a static data website. No backend has been added to it.
+This app only have firebase auth and is a static data website. No backend has been added to it. Also, this is not AI generated.
 
