@@ -14,3 +14,28 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+It is a travel-inspired web application that helps users discover beautiful destinations around the world through digital postcards.
+
+Features
+📮 Daily Postcard A new destination every day.
+
+🎲 Random Discovery Travel anywhere instantly.
+
+🌦 Weather Insights See local weather conditions.
+
+🗺 Interactive Maps Locate every destination.
+
+🗣 Local Phrases Learn greetings worldwide.
+
+❤️ Save Favorites Build your collection.
+
+Tech Stack
+React Firebase Auth
+
+Demo:
+You can visit https://srishtiongit.github.io/Atlas-Notes/ to get a hands on experience of the whole webpage.
+
+Note:
+This app only have firebase auth and is a static data website. No backend has been added to it.
