@@ -1,0 +1,128 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: var(--primary);
+  color: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: var(--bg);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--accent);
+  margin-left: -90px;
+}
+
+.title-02 {
+  color: var(--highlight);
+  font-family: var(--font);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links {
+  display: flex;
+  margin-right: 700px;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--text-02);
+  font-weight: 200;
+  font-size: 1.2rem;
+  font-family: var(--font-body);
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  color: var(--text-02);
+  top: calc(100% + 10px);
+  font-family: "";
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+
+  transition: all 0.25s ease;
+
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+
+  z-index: 1000;
+  width: 200px;
+  font-family: var(--font-body);
+}
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown a {
+  color: var(--text-02);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: var(--text-02);
+  padding: 10px;
+}
+
+.dropdown-menu li:hover {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(10px);
+
+  transition: all 1s ease;
+}
+
+.getstarted {
+  background-color: var(--secondary);
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: var(--text-02);
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: var(--font-body);
+}
+
+.getstarted:hover {
+  background-color: var(--highlight);
+}
