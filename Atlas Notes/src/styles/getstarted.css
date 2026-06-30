@@ -11,10 +11,6 @@
   color: var(--primary);
 }
 
-.get-started h1:hover {
-  color: var(--secondary);
-}
-
 .steps {
   display: flex;
   flex-direction: row;

@@ -1,4 +1,5 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import PostCard from "./components/postcard";
@@ -7,8 +8,9 @@ import Iceland from "./assets/iceland.png";
 import Sentorini from "./assets/sentorini.png";
 import TravelQuotes from "./components/travelquotes";
 import GetStarted from "./components/getstarted";
+import About from "./pages/about";
 
-const App = () => {
+const HomePage = () => {
   return (
     <div>
       <Navbar />
@@ -46,5 +48,14 @@ const App = () => {
     </div>
   );
 };
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+  );
+}
 
 export default App;
