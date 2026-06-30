@@ -1,0 +1,54 @@
+.get-started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-started h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--primary);
+}
+
+.get-started h1:hover {
+  color: var(--secondary);
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.step {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+
+  width: 250px;
+  min-height: 100px;
+}
+
+.step h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--primary);
+}
+
+.step p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--font-body);
+  color: var(--text);
+}
+
+.step:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+}

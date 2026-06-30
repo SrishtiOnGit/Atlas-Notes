@@ -1,6 +1,7 @@
 import "../styles/navbar.css";
 import logo from "../assets/logo.png";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -20,9 +21,15 @@ const Navbar = () => {
           <li className="dropdown">
             <a href="#">Explore ▼</a>
             <ul className="dropdown-menu">
-              <li>About Us</li>
-              <li>Why Atlas Notes</li>
-              <li>Featured Places</li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/atlasnotes">Why Atlas Notes</Link>
+              </li>
+              <li>
+                <Link to="/featuredplaces">Featured Places</Link>
+              </li>
             </ul>
           </li>
           <li className="nav-item">

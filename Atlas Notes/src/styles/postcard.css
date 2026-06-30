@@ -1,0 +1,41 @@
+.postcard {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+
+  transition: transform 0.3s ease;
+
+  max-width: 350px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.postcard:hover {
+  transform: translateY(-8px);
+}
+
+.post-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.postcard-content {
+  padding: 1rem;
+}
+
+.postcard-content h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.country {
+  color: var(--secondary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.postcard-content p {
+  color: var(--text);
+  line-height: 1.5;
+}
