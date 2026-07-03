@@ -14,8 +14,8 @@ const GetStarted = () => {
     },
     {
       id: 3,
-      title: "Save Your Favourites",
-      description: "Save your favourite postcards.",
+      title: "Explore the Hidden Places",
+      description: "Discover hidden places and learn more about them.",
     },
     {
       id: 4,

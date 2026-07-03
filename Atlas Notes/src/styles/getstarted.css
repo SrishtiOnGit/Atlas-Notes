@@ -27,10 +27,13 @@
   box-shadow: var(--shadow);
 
   width: 250px;
-  min-height: 100px;
+  min-height: 130px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .step h2 {
+  margin-bottom: 10px;
   font-size: 1.2rem;
   font-weight: 600;
   font-family: var(--font);

@@ -1,0 +1,22 @@
+.hidden-page {
+  min-height: 100vh;
+}
+
+.hidden-content {
+  margin-left: 250px;
+  padding: 40px;
+}
+
+.hidden-places {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.hidden-places h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--primary);
+}

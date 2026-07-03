@@ -9,6 +9,13 @@ import Sentorini from "./assets/sentorini.png";
 import TravelQuotes from "./components/travelquotes";
 import GetStarted from "./components/getstarted";
 import About from "./pages/about";
+import WhyUs from "./pages/whyus";
+import FAQ from "./pages/faq";
+import Contact from "./pages/contact";
+import Dashboard from "./pages/dashboard";
+import Map from "./pages/map";
+import Hidden from "./pages/hidden";
+import Profile from "./pages/profile";
 
 const HomePage = () => {
   return (
@@ -54,6 +61,13 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<About />} />
+      <Route path="/whyus" element={<WhyUs />} />
+      <Route path="/faq" element={<FAQ />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/map" element={<Map />} />
+      <Route path="/hidden" element={<Hidden />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }

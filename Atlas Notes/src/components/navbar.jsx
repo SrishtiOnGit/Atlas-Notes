@@ -25,15 +25,15 @@ const Navbar = () => {
                 <Link to="/about">About Us</Link>
               </li>
               <li>
-                <Link to="/atlasnotes">Why Atlas Notes</Link>
+                <Link to="/whyus">Why Atlas Notes</Link>
               </li>
               <li>
-                <Link to="/featuredplaces">Featured Places</Link>
+                <Link to="/faq">FAQ</Link>
               </li>
             </ul>
           </li>
           <li className="nav-item">
-            <a href="#">Contact Us</a>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
         <button className="getstarted" onClick={() => navigate("/dashboard")}>

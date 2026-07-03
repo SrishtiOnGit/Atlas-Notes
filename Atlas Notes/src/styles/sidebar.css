@@ -1,0 +1,59 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 250px;
+  height: 100vh;
+
+  background: #173c43;
+
+  transition: 0.35s ease;
+  overflow: hidden;
+}
+
+.sidebar-logo {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: var(--bg);
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+  transition: 0.3s;
+}
+
+.daily-postcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.daily-postcard h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--primary);
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
