@@ -34,9 +34,10 @@ https://srishtiongit.github.io/Atlas-Notes/
 
 ## Local Setup : 
 1. Clone the repo "https://github.com/SrishtiOnGit/Atlas-Notes.git".
-2. npm install
-3. npm run dev
-4. You may visit this site "http://localhost:5173".
+2. cd Atlas Notes
+3. npm install
+4. npm run dev
+5. You may visit this site "http://localhost:5173".
 
 ## AI : 
 Almost no AI has been used - only for few css problems otherwise nothing, everything is created by me.
