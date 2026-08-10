@@ -19,7 +19,7 @@ A digital travel experience that lets you explore the world through interactive 
 
 ## Reflections:
 
-I reshipped it after adding a no of changes to my project. I changed the full UI and added more features. 
+I re-shipped it after adding a number of changes to my project. I changed the full UI and added more features. 
 
 ## Demo
 
@@ -32,6 +32,14 @@ https://srishtiongit.github.io/Atlas-Notes/
 
 <img width="1897" height="903" alt="image" src="https://github.com/user-attachments/assets/f3027a36-4401-4515-bb11-70f625a80400" />
 
+## Local Setup : 
+1. Clone the repo "https://github.com/SrishtiOnGit/Atlas-Notes.git".
+2. npm install
+3. npm run dev
+4. You may visit this site "http://localhost:5173".
+
+## AI : 
+Almost no AI has been used - only for few css problems otherwise nothing, everything is created by me.
 
 
 
