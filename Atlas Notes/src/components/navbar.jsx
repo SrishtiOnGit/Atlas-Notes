@@ -9,10 +9,6 @@ const Navbar = () => {
     <div className="navbar">
       <img src={logo} alt="logo" className="nav-logo" />
 
-      <h1 className="title">
-        Atlas <span className="title-02">Notes</span>
-      </h1>
-
       <div className="links">
         <ul className="nav-links">
           <li className="nav-item">
@@ -36,9 +32,7 @@ const Navbar = () => {
             <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
-        <button className="getstarted" onClick={() => navigate("/dashboard")}>
-          Get Started
-        </button>
+        <p className="version">V2.0</p>
       </div>
     </div>
   );

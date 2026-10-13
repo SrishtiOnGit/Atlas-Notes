@@ -13,24 +13,11 @@
 }
 
 .nav-logo {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   object-fit: cover;
   border-radius: 50%;
   background-color: var(--bg);
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: var(--font);
-  color: var(--accent);
-  margin-left: -90px;
-}
-
-.title-02 {
-  color: var(--highlight);
-  font-family: var(--font);
 }
 
 .links {
@@ -113,18 +100,12 @@
   transition: all 1s ease;
 }
 
-.getstarted {
-  background-color: var(--secondary);
-  padding: 10px 20px;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-  color: var(--text-02);
-  font-weight: 500;
+.version {
   font-size: 1.2rem;
+  font-weight: 200;
+  color: var(--text);
   font-family: var(--font-body);
-}
-
-.getstarted:hover {
-  background-color: var(--highlight);
+  background-color: var(--surface-light);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
