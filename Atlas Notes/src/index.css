@@ -2,22 +2,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 
 :root {
-  --bg: #e1c193;
-  --primary: #264653;
-  --secondary: #2a9d8f;
-  --accent: #e9c46a;
-  --highlight: #f4a261;
-  --text: #3d405b;
-  --text-02: #fff;
+  --bg: linear-gradient(180deg, #07111f, #0b1324);
+  --surface: #0f172a;
+  --surface-light: #172554;
+  --primary: #4f9cf9;
+  --secondary: #2ec4b6;
+  --accent: #f4c95d;
+  --highlight: #f97316;
 
-  --font {
-    font-family: "Caveat", cursive;
-  }
+  --text: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --muted: #94a3b8;
 
-  --font-body {
-    font-family: "Roboto", sans-serif;
-  }
+  --border: rgba(255, 255, 255, 0.08);
 
-  --card: 0 6px 18px rgba(0, 0, 0, 0.06);
-  --shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  --radius: 18px;
+
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  --glass: rgba(255, 255, 255, 0.05);
+
+  --blur: blur(18px);
+
+  --font-display: "Caveat", cursive;
+
+  --font-body: "Roboto Serif", serif;
+}
+
+.cards {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: 18px;
+
+  box-shadow: var(--shadow);
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-family: var(--font-body);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--text-02);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(79, 156, 249, 0.3);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--text-02);
 }

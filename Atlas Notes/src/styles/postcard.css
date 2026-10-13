@@ -1,5 +1,5 @@
 .postcard {
-  background: #fff;
+  background: var(--surface-light);
   border-radius: 20px;
   overflow: hidden;
 
@@ -27,6 +27,7 @@
 .postcard-content h3 {
   color: var(--primary);
   margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .country {

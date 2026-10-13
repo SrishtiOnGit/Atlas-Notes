@@ -15,14 +15,15 @@ const Hero = () => {
         className="hero-video"
       />
       <div className="hero-content">
-        <h1 className="hero-title">
-          The World Is Waiting Beyond The Next Stop.
-        </h1>
+        <h1 className="hero-title">Explore Beyond the Guidebooks.</h1>
         <p className="hero-subtitle">
-          Collect memories, discover cultures, and travel through stories shared
-          from every corner of Earth.
+          Discover hidden gems, collect beautiful travel stories, and build your
+          personal world atlas.
         </p>
-        <button className="hero-btn" onClick={() => navigate("/dashboard")}>
+        <button
+          className="btn btn-primary"
+          onClick={() => navigate("/dashboard")}
+        >
           Let's Explore The World
         </button>
       </div>

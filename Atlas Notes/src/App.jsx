@@ -22,7 +22,7 @@ const HomePage = () => {
     <div>
       <Navbar />
       <Hero />
-      <h1 className="post-title">Our Postcards</h1>
+      <h1 className="post-title">Postcards Preview</h1>
       <div className="postcard-app">
         <PostCard
           image={Kyoto}

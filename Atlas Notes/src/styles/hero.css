@@ -33,10 +33,19 @@
   box-sizing: border-box;
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(rgba(7, 17, 31, 0.65), rgba(7, 17, 31, 0.55));
+}
+
 .hero-title {
+  font-family: var();
   font-size: 3rem;
   font-weight: 600;
-  color: #faf3e8;
+  color: var(--text);
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   margin-bottom: 20px;
 }
@@ -44,28 +53,7 @@
 .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 200;
-  color: yellow;
+  color: hsl(60, 100%, 50%);
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   margin-bottom: 20px;
-}
-
-.hero-btn {
-  background-color: #e9c46a;
-  color: #264653;
-  padding: 12px 28px;
-  border-radius: 30px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  font-size: 1.1rem;
-  font-weight: 600;
-
-  transition: all 0.3s ease;
-
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-}
-
-.hero-btn:hover {
-  background-color: transparent;
-  color: #e9c46a;
-  border: 1px solid #e9c46a;
 }
